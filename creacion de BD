@@ -1,0 +1,3 @@
+create database prueba;
+CREATE TABLE datos(id INT PRIMARY KEY, name VARCHAR(255), email VARCHAR(255), pass VARCHAR(255), phone int);
+CREATE TABLE phone(id INT PRIMARY KEY, number VARCHAR(255), citycode VARCHAR(255), countrycode VARCHAR(255));
